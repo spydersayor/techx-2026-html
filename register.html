@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <meta name="description" content="This is the official website for TechX 2026">
+    <meta name="author" content="Sayor">
+    <link rel="icon" href="images/icons8-ico-16.png" type="images/x-icon">
+</head>
+<body>
+    <header>
+        <h1><u>REGISTER FOR TECHX 2026</u></h1>
+        <hr>
+        <nav>
+            <ul>
+                <u>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="register.html">REGISTER</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </u>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <h2><u>Please fill the details below</u></h2>
+        <label for="form-progress">Form Completion:</label><br>
+        <progress id="form-progress" value="0" max="100" style="width: 400px; height: 15px;"></progress>
+        <span id="progress-text">0%</span>
+
+        <br><br>
+
+        <form action="#" method="post" id="registrationForm">
+            <fieldset>
+                <legend><b>Personal Details</b></legend>
+
+                <label for="name">Enter your name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Ex. John Doe" required>
+                <br><br>
+
+                <label for="email">Enter your email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Ex. example@gmail.com" required>
+                <br><br>
+
+                <label for="phone">Enter your phone no.:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="Ex. +91 9876543210" required>
+                <br><br>
+
+                <label for="dob">Enter your Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob" required>
+                <br><br>
+
+                <label>Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Academic Details</b></legend>
+                <label for="college">College / University Name:</label><br>
+                <input type="text" id="college" name="college" placeholder="Ex. ABC Institute of Technology" required>
+                <br><br>
+                <label for="branch">Branch / Department:</label><br>
+                <select id="branch" name="branch" required>
+                    <option value="" disabled selected>-- Select your Branch --</option>
+                    <option value="cse">Computer Science & Engineering (CSE)</option>
+                    <option value="ise">Information Science & Engineering (ISE)</option>
+                    <option value="ece">Electronics & Communication (ECE)</option>
+                    <option value="eee">Electrical & Electronics (EEE)</option>
+                    <option value="me">Mechanical Engineering (ME)</option>
+                    <option value="ce">Civil Engineering (CE)</option>
+                    <option value="aiml">AI & Machine Learning (AIML)</option>
+                    <option value="ds">Data Science (DS)</option>
+                    <option value="other">Other</option>
+                </select>
+                <br><br>
+                <label for="semester">Semester:</label><br>
+                <select id="semester" name="semester" required>
+                    <option value="" disabled selected>-- Select Semester --</option>
+                    <option value="1">1st Semester</option>
+                    <option value="2">2nd Semester</option>
+                    <option value="3">3rd Semester</option>
+                    <option value="4">4th Semester</option>
+                    <option value="5">5th Semester</option>
+                    <option value="6">6th Semester</option>
+                    <option value="7">7th Semester</option>
+                    <option value="8">8th Semester</option>
+                </select>
+                <br><br>
+                <label for="usn">USN / Roll Number:</label><br>
+                <input type="text" id="usn" name="usn" placeholder="Ex. 1AB21CS001" required>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Event Participation</b></legend>
+                <label><b>Select Events you want to participate in:</b></label><br><br>
+                <input type="checkbox" id="hackathon" name="events" value="hackathon">
+                <label for="hackathon">Hackathon</label>
+                <br>
+                <input type="checkbox" id="coding" name="events" value="coding">
+                <label for="coding">Coding Contest</label>
+                <br>
+                <input type="checkbox" id="gaming" name="events" value="gaming">
+                <label for="gaming">Gaming</label>
+                <br>
+                <input type="checkbox" id="quiz" name="events" value="quiz">
+                <label for="quiz">Quiz</label>
+                <br>
+                <input type="checkbox" id="robotics" name="events" value="robotics">
+                <label for="robotics">Robotics</label>
+                <br>
+                <input type="checkbox" id="ai_challenge" name="events" value="ai_challenge">
+                <label for="ai_challenge">AI Challenge</label><br><br>
+                <label for="tshirt"><b>T-Shirt Size:</b></label><br>
+                <select id="tshirt" name="tshirt_size" required>
+                    <option value="" disabled selected>-- Select Size --</option>
+                    <option value="S"><abbr title="Small">S</abbr></option>
+                    <option value="M"><abbr title="Medium">M</abbr></option>
+                    <option value="L"><abbr title="Large">L</abbr></option>
+                    <option value="XL"><abbr title="Extra Large">XL</abbr></option>
+                    <option value="XXL"><abbr title="Double Extra Large">XXL</abbr></option>
+                </select>
+                <br><br>
+                <label><b>Food Preference:</b></label><br><br>
+                <input type="radio" id="veg" name="food" value="veg" required>
+                <label for="veg">Vegetarian</label>
+                <input type="radio" id="nonveg" name="food" value="non_veg">
+                <label for="nonveg">Non-Vegetarian</label>
+                <input type="radio" id="vegan" name="food" value="vegan">
+                <label for="vegan">Vegan</label>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Emergency Contact</b></legend>
+                <label for="emergency_name">Emergency Contact Name:</label><br>
+                <input type="text" id="emergency_name" name="emergency_name" placeholder="Ex. Jane Doe" required><br><br>
+                <label for="emergency_phone">Emergency Contact Phone:</label><br>
+                <input type="tel" id="emergency_phone" name="emergency_phone" placeholder="Ex. +91 9876543210" required><br><br>
+                <label for="relationship">Relationship:</label><br>
+                <select id="relationship" name="relationship">
+                    <option value="" disabled selected>-- Select Relationship --</option>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="guardian">Guardian</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Medical Information</b></legend>
+                <label for="medical"><b>Medical Conditions / Allergies:</b></label><br>
+                <small>Please mention any medical conditions or allergies. Write "None" if not applicable.</small>
+                <br><br>
+                <textarea id="medical" name="medical_conditions" rows="5" cols="50"
+                    placeholder="Ex. Allergic to penicillin, Diabetic, etc."
+                    maxlength="500"></textarea>
+                <br>
+                <label for="char-meter">Characters used:</label><br>
+                <meter id="char-meter" min="0" max="500" low="100" high="400" optimum="300" value="0"></meter>
+                <span id="char-count">0 / 500</span>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Declaration</b></legend>
+
+                <input type="checkbox" id="declaration" name="declaration" required>
+                <label for="declaration">
+                    I hereby declare that all the information provided above is
+                    true and correct to the best of my knowledge. I agree to the
+                    <a href="#">Terms &amp; Conditions</a> and
+                    <a href="#">Privacy Policy</a> of TechX 2026.
+                </label>
+                <br>
+            </fieldset>
+            <br>
+            <input type="submit" value="Submit Registration">
+            &nbsp;&nbsp;
+            <input type="reset" value="Reset Form" id="resetBtn">
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2026 TechX. All rights reserved. | Designed by <b>Sayor</b></p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms &amp; Conditions</a> |
+            <a href="mailto:contact@techx2026.com">contact@techx2026.com</a>
+        </p>
+    </footer>
+</body>
+</html>
