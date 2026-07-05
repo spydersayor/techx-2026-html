@@ -72,11 +72,14 @@ h1 {
 
 
 .header a.active{
-    color: #ffffff;           
+    color: rgba(0, 229, 255, 0.5);           
 }
 
 .header a:hover {
     color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0 0 40px rgba(0, 229, 255, 0.5),
+                0 15px 50px rgba(0, 0, 0, 0.6);
 }
 
 .footer{
