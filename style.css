@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/Gemini_Generated_Image_6oyf46oyf46oyf46.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    height: 100%;
+}
+
+.hero-section {
+    flex: 1;
+}
+
+.title-bar {
+    display: flex;              
+    align-items: center;        
+    justify-content: center;    
+    gap: 20px;                  
+    background: linear-gradient(to right, #061033 0%, #626c8d 50%, #030a21 100%);
+    padding: 10px 20px;
+}
+
+.title-bar #logo {
+    height: 70px;              
+    width: auto;                
+}
+
+h1 {
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+}
+
+.header nav{
+    border: white solid 2px;
+    background:linear-gradient(to right, #061033 0%, #626c8d 50%, #030a21 100%);
+}
+
+.header li{
+    display: inline;
+    margin: 0 50px;
+    font-family:"Orbitron", sans-serif;
+}
+
+.header ul{
+    justify-content: center;
+    list-style: none;         
+    margin: 0 20px;
+    padding: 0px 160px;
+    display: flex;             
+    gap: 60px;               
+}
+
+.header a{
+    text-decoration: none;    
+    color: #8a9ba8;          
+    font-weight: normal;     
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+}
+
+
+.header a.active{
+    color: #ffffff;           
+}
+
+.header a:hover {
+    color: #ffffff;
+}
+
+.footer{
+    border-top: white solid 1px;
+    background: linear-gradient(to bottom, #2c3e50, #1a252f);
+}
+.footer p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family:"Orbitron", sans-serif;
+    color: #ffffff;
+}
+
+.footer a {
+    color: #b2c4e0;                  
+    text-decoration: underline;
+}
+
+

@@ -6,30 +6,31 @@
     <title>TechX 2026</title>
     <meta name="description" content="This is the official website for TechX 2026">
     <meta name="author" content="Sayor">
-    <link rel="icon" href="images/icons8-ico-16.png" type="images/x-icon">
+    <link rel="icon" href="images/icons8-ico-16.png" type="images/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>WELCOME TO TechX 2026 - India's Biggest College Tech Fest</h1>
-    <hr>
-    <header>
+    <header class="header">
+        <div class="title-bar">
+            <img src="images/logo.png" alt="College logo" id="logo">
+            <h1>WELCOME TO TechX 2026 - India's Biggest College Tech Fest</h1>
+        </div>
         <nav>
             <ul>
-                <u>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="events.html">EVENTS</a></li>
-                    <li><a href="gallery.html">GALLERY</a></li>
-                    <li><a href="register.html">REGISTER</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </u>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="register.html">REGISTER</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
-        <hr>
     </header>
-    <main>
+    <main class="hero-section">
         <section>
-            <hr>
-            <img src="images/images.jpeg" alt="College logo" height="200">
-            <img src="images/Gemini_Generated_Image_js5zwejs5zwejs5z.png" alt="Event banner" height="200">
+            <img src="images/Gemini_Generated_Image_js5zwejs5zwejs5z.png" alt="Event banner" height="200" id="event_logo">
             <hr>
         </section>
         <section>
@@ -44,12 +45,8 @@
             <dl>
                 <dt><b>AI & Robotics:</b></dt>
                 <dd>Exploring the next frontier of generative AI, autonomous systems, and machine learning engineering.</dd>
-            </dl>
-            <dl>
                 <dt><b>Blockchain & FinTech:</b></dt>
                 <dd>Demystifying decentralized finance, secure digital transactions, and the future of global commerce.</dd>
-            </dl>
-            <dl>
                 <dt><b>Cybersecurity:</b></dt>
                 <dd>Addressing critical strategies for data protection, threat intelligence, and building resilient digital infrastructures.</dd>
             </dl>
@@ -79,7 +76,7 @@
         </section>
     </main>
     <hr>
-    <footer>
+    <footer class="footer">
         <p>&copy; 2026 TechX. All rights reserved. | Designed by <b>Sayor</b></p>
         <p>
             <a href="#">Privacy Policy</a> |
