@@ -1,0 +1,480 @@
+.header > p {
+    text-align: center;
+    color: #e0e8f0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin: 0 auto;              
+    padding: 15px 20px;          
+    max-width: 600px;
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.3);
+}
+
+main {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+    font-family: "Orbitron", sans-serif;
+    color: #ffffff;
+}
+
+main > p {
+    background: linear-gradient(145deg, 
+                rgba(20, 46, 88, 0.85), 
+                rgba(6, 16, 51, 0.85));
+    backdrop-filter: blur(10px);
+    
+    color: #e0e8f0;
+    padding: 20px 30px;
+    border-left: 4px solid #00e5ff;
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 900px;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3),
+                0 5px 20px rgba(0, 0, 0, 0.4);
+    
+    text-align: center;
+}
+
+main > p b {
+    color: #00e5ff;
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+iframe {
+    display: block;
+    margin: 30px auto;
+    width: 90% !important;
+    max-width: 900px;
+    height: 400px !important;
+    
+    border: 3px solid #00e5ff !important;
+    border-radius: 15px;
+    
+    box-shadow: 0 0 30px rgba(0, 229, 255, 0.5),
+                0 10px 40px rgba(0, 0, 0, 0.6);
+    
+    transition: all 0.4s ease;
+    filter: hue-rotate(0deg) saturate(1.1);
+}
+
+iframe:hover {
+    box-shadow: 0 0 50px rgba(0, 229, 255, 0.8),
+                0 15px 50px rgba(0, 0, 0, 0.7);
+    transform: translateY(-5px);
+}
+
+main fieldset {
+    background: linear-gradient(145deg, 
+                rgba(20, 46, 88, 0.85), 
+                rgba(6, 16, 51, 0.85));
+    backdrop-filter: blur(10px);
+    
+    border: 2px solid rgba(0, 229, 255, 0.5);
+    border-radius: 15px;
+    padding: 35px;
+    margin: 30px auto;
+    max-width: 1000px;
+    
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.3),
+                0 10px 40px rgba(0, 0, 0, 0.5);
+    
+    transition: all 0.4s ease;
+}
+
+main fieldset:hover {
+    border-color: #00e5ff;
+    box-shadow: 0 0 40px rgba(0, 229, 255, 0.5),
+                0 15px 50px rgba(0, 0, 0, 0.6);
+    transform: translateY(-3px);
+}
+
+main legend {
+    background: linear-gradient(to right, 
+                #061033, 
+                #142e58, 
+                #061033);
+    color: #00e5ff;
+    padding: 12px 30px;
+    border: 2px solid rgba(0, 229, 255, 0.6);
+    border-radius: 10px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+    font-family: "Orbitron", sans-serif;
+}
+
+main fieldset > p {
+    color: #e0e8f0;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    background: rgba(6, 16, 51, 0.5);
+    border-left: 3px solid rgba(0, 229, 255, 0.5);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+main fieldset > p:hover {
+    border-left-color: #00e5ff;
+    background: rgba(6, 16, 51, 0.8);
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+    transform: translateX(5px);
+}
+
+main fieldset > p b {
+    color: #00e5ff;
+    text-shadow: 0 0 5px rgba(0, 229, 255, 0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+main fieldset a {
+    color: #00e5ff;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(0, 229, 255, 0.5);
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+main fieldset a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px #00e5ff;
+    border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+}
+
+main table {
+    width: 100%;
+    margin: 25px auto 10px;
+    border-collapse: collapse;
+    font-family: "Orbitron", sans-serif;
+    
+    background: linear-gradient(145deg, 
+                rgba(6, 16, 51, 0.7), 
+                rgba(3, 10, 33, 0.7));
+    
+    border: 2px solid rgba(0, 229, 255, 0.5) !important;
+    border-radius: 12px;
+    overflow: hidden;
+    
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3),
+                0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+main table thead th {
+    padding: 15px 12px;
+    background: linear-gradient(to right, 
+                #061033, 
+                #142e58, 
+                #061033);
+    color: #00e5ff;
+    font-size: 13px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    border: 1px solid rgba(0, 229, 255, 0.4) !important;
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+}
+
+main table tbody td {
+    padding: 15px 12px;
+    color: #e0e8f0;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    
+    border: 1px solid rgba(0, 229, 255, 0.2) !important;
+    transition: all 0.3s ease;
+}
+
+main table tbody tr:nth-child(odd) {
+    background: rgba(6, 16, 51, 0.6);
+}
+
+main table tbody tr:nth-child(even) {
+    background: rgba(20, 46, 88, 0.4);
+}
+
+
+main table tbody tr:hover {
+    background: rgba(0, 229, 255, 0.15);
+    cursor: pointer;
+}
+
+main table tbody tr:hover td {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.4);
+}
+
+main table abbr {
+    color: #00e5ff;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(0, 229, 255, 0.5);
+    cursor: help;
+}
+
+main fieldset label {
+    color: #e0e8f0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+main fieldset label b {
+    color: #00e5ff;
+    text-shadow: 0 0 5px rgba(0, 229, 255, 0.4);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+main fieldset > p:has(+ textarea) {
+    background: transparent;
+    border-left: none;
+    padding: 15px 0 5px;
+    box-shadow: none;
+}
+
+main fieldset > p:has(+ textarea):hover {
+    transform: none;
+    background: transparent;
+    box-shadow: none;
+    border-left: none;
+}
+
+main fieldset input[type="text"],
+main fieldset input[type="email"],
+main fieldset input[type="tel"],
+main fieldset textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    margin-top: 8px;
+    
+    background: rgba(6, 16, 51, 0.7);
+    border: 2px solid rgba(0, 229, 255, 0.4);
+    border-radius: 8px;
+    
+    color: #ffffff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    
+    transition: all 0.3s ease;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+main fieldset input::placeholder,
+main fieldset textarea::placeholder {
+    color: rgba(178, 196, 224, 0.5);
+    font-style: italic;
+}
+
+main fieldset input:focus,
+main fieldset textarea:focus {
+    outline: none;
+    border-color: #00e5ff;
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.6),
+                inset 0 0 10px rgba(0, 229, 255, 0.1);
+    background: rgba(6, 16, 51, 0.9);
+}
+
+
+main fieldset textarea {
+    resize: vertical;
+    min-height: 120px;
+    max-width: 100%;
+    width: 100%;
+}
+
+main fieldset meter {
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid rgba(0, 229, 255, 0.5);
+    background: rgba(6, 16, 51, 0.8);
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.3);
+}
+
+main fieldset meter::-webkit-meter-bar {
+    background: rgba(6, 16, 51, 0.8);
+    border-radius: 8px;
+}
+
+main fieldset meter::-webkit-meter-optimum-value {
+    background: linear-gradient(90deg, #00e5ff, #0088ff);
+    border-radius: 8px;
+}
+
+main fieldset meter::-webkit-meter-suboptimum-value {
+    background: linear-gradient(90deg, #ffaa00, #ff8800);
+    border-radius: 8px;
+}
+
+main fieldset meter::-webkit-meter-even-less-good-value {
+    background: linear-gradient(90deg, #ff4444, #cc0000);
+    border-radius: 8px;
+}
+
+#char-count {
+    color: #00e5ff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    text-shadow: 0 0 5px rgba(0, 229, 255, 0.4);
+    letter-spacing: 1px;
+}
+
+main fieldset input[type="submit"],
+main fieldset input[type="reset"] {
+    padding: 14px 35px;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    border: 2px solid #00e5ff;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    transition: all 0.3s ease;
+    margin: 20px 5px 5px;
+    min-width: 180px;
+}
+
+
+main fieldset input[type="submit"] {
+    background: linear-gradient(135deg, #00e5ff, #0088ff);
+    color: #061033;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.5),
+                0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+main fieldset input[type="submit"]:hover {
+    background: linear-gradient(135deg, #ffffff, #00e5ff);
+    box-shadow: 0 0 30px rgba(0, 229, 255, 0.9),
+                0 8px 25px rgba(0, 0, 0, 0.5);
+    transform: translateY(-3px);
+}
+
+main fieldset input[type="submit"]:active {
+    transform: translateY(0);
+}
+
+
+main fieldset input[type="reset"] {
+    background: transparent;
+    color: #00e5ff;
+    box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
+}
+
+main fieldset input[type="reset"]:hover {
+    background: rgba(0, 229, 255, 0.15);
+    color: #ffffff;
+    text-shadow: 0 0 8px #00e5ff;
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.6);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 992px) {
+    iframe {
+        height: 350px !important;
+    }
+    
+    main fieldset {
+        padding: 25px 20px;
+    }
+    
+    main legend {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+    
+    iframe {
+        width: 100% !important;
+        height: 300px !important;
+    }
+    
+    main fieldset {
+        padding: 20px 15px;
+    }
+    
+    main legend {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+    
+    main table {
+        font-size: 12px;
+    }
+    
+    main table thead th {
+        padding: 10px 6px;
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+    
+    main table tbody td {
+        padding: 10px 6px;
+        font-size: 12px;
+    }
+    
+    main fieldset input[type="submit"],
+    main fieldset input[type="reset"] {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        min-width: unset;
+    }
+    
+    main fieldset meter {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    main > p {
+        font-size: 13px;
+        padding: 15px 20px;
+    }
+    
+    main fieldset > p {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+
+    main fieldset {
+        overflow-x: auto;
+    }
+    
+    main table {
+        min-width: 500px;
+    }
+}
