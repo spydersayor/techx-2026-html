@@ -1,0 +1,375 @@
+.hero-section{
+    font-family: "Orbitron",sans-serif;
+    color: white;
+    padding: 20px;
+}
+.hero-section > h2 {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size: 32px;
+    color: #00e5ff;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin: 40px auto 20px;
+    padding: 15px 30px;
+    text-shadow: 0 0 15px rgba(0, 229, 255, 0.6),
+                 0 0 30px rgba(0, 229, 255, 0.4);
+    max-width: fit-content;
+    border-bottom: 2px solid rgba(0, 229, 255, 0.5);
+    animation: glowPulse 3s ease-in-out infinite;
+}
+
+.hero-section > p {
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    color: #e0e8f0;
+    font-size: 16px;
+    margin: 10px auto 30px;
+    max-width: 700px;
+    padding: 0 20px;
+    letter-spacing: 1px;
+}
+
+
+.hero-section > figure {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    
+    background: linear-gradient(145deg, 
+                rgba(20, 46, 88, 0.85), 
+                rgba(6, 16, 51, 0.85));
+    backdrop-filter: blur(10px);
+    
+    border: 2px solid rgba(0, 229, 255, 0.4);
+    border-radius: 15px;
+    
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3),
+                0 10px 30px rgba(0, 0, 0, 0.5);
+    
+    transition: all 0.4s ease;
+    text-align: center;
+    vertical-align: top;
+    width: 260px;
+}
+
+.hero-section > figure:hover {
+    transform: translateY(-10px) scale(1.03);
+    border-color: #00e5ff;
+    box-shadow: 0 0 40px rgba(0, 229, 255, 0.7),
+                0 15px 40px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section > figure img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 229, 255, 0.3);
+    display: block;
+    transition: filter 0.4s ease;
+}
+
+.hero-section > figure:hover img {
+    filter: brightness(1.1) contrast(1.1);
+}
+
+.hero-section > figure figcaption {
+    margin-top: 12px;
+    padding: 8px;
+    color: #e0e8f0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+.hero-section > figure figcaption b {
+    color: #00e5ff;
+    text-shadow: 0 0 8px rgba(0, 229, 255, 0.5);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.hero-section > br {
+    display: none;
+}
+
+.hero-section figure:has(video) {
+    display: block;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 700px;
+    width: auto;
+    
+    background: linear-gradient(145deg, 
+                rgba(20, 46, 88, 0.85), 
+                rgba(6, 16, 51, 0.85));
+    border: 2px solid rgba(0, 229, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.4),
+                0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.hero-section video {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 229, 255, 0.4);
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+    display: block;
+    margin: 0 auto;
+}
+
+.hero-section figure:has(audio) {
+    display: block;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 600px;
+    width: auto;
+    
+    background: linear-gradient(145deg, 
+                rgba(20, 46, 88, 0.85), 
+                rgba(6, 16, 51, 0.85));
+    border: 2px solid rgba(0, 229, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.3),
+                0 10px 30px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.hero-section audio {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 15px;
+    filter: hue-rotate(180deg) saturate(1.5);
+}
+
+.hero-section figure:has(audio) figcaption {
+    color: #00e5ff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+#behind-the-scenes {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    
+    background: linear-gradient(145deg, 
+                rgba(20, 46, 88, 0.85), 
+                rgba(6, 16, 51, 0.85));
+    backdrop-filter: blur(10px);
+    
+    border: 2px solid rgba(0, 229, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 229, 255, 0.4),
+                0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+#behind-the-scenes h2 {
+    text-align: center;
+    color: #00e5ff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 26px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+#behind-the-scenes > p {
+    text-align: center;
+    color: #e0e8f0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+#behind-the-scenes details {
+    background: rgba(6, 16, 51, 0.6);
+    border: 1px solid rgba(0, 229, 255, 0.4);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+#behind-the-scenes details[open] {
+    border-color: #00e5ff;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+}
+
+#behind-the-scenes summary {
+    padding: 18px 25px;
+    cursor: pointer;
+    color: #00e5ff;
+    font-family: "Orbitron", sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background: linear-gradient(to right, 
+                #061033, 
+                #142e58, 
+                #061033);
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+    list-style: none;
+    position: relative;
+    padding-left: 45px;
+}
+
+#behind-the-scenes summary::before {
+    content: "▶";
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #00e5ff;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+#behind-the-scenes details[open] summary::before {
+    transform: translateY(-50%) rotate(90deg);
+}
+
+#behind-the-scenes summary:hover {
+    background: linear-gradient(to right, 
+                #0a1a4d, 
+                #1e3a6f, 
+                #0a1a4d);
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.8);
+}
+
+#behind-the-scenes details[open] summary {
+    border-bottom-color: rgba(0, 229, 255, 0.4);
+}
+
+#behind-the-scenes details p {
+    padding: 15px 25px;
+    color: #e0e8f0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+#behind-the-scenes details b {
+    color: #00e5ff;
+    text-shadow: 0 0 5px rgba(0, 229, 255, 0.4);
+}
+
+#behind-the-scenes details ul {
+    color: #e0e8f0;
+    font-family: "Orbitron", sans-serif;
+    padding: 0 25px 15px 60px;
+    line-height: 1.9;
+}
+
+#behind-the-scenes details ul li {
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#behind-the-scenes details ul li::marker {
+    color: #00e5ff;
+}
+
+#behind-the-scenes details figure {
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 350px;
+    background: rgba(6, 16, 51, 0.5);
+    border: 1px solid rgba(0, 229, 255, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#behind-the-scenes details figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 229, 255, 0.4);
+}
+
+#behind-the-scenes details figure figcaption {
+    color: #b2c4e0;
+    font-family: "Orbitron", sans-serif;
+    font-size: 12px;
+    margin-top: 10px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+
+.hero-section hr,
+main hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, 
+                transparent, 
+                #00e5ff, 
+                transparent);
+    margin: 40px auto;
+    max-width: 80%;
+    box-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
+}
+
+@media (max-width: 992px) {
+    .hero-section > figure {
+        width: 220px;
+    }
+    
+    .hero-section > h2 {
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section > figure {
+        width: 90%;
+        max-width: 300px;
+        display: block;
+        margin: 15px auto;
+    }
+    
+    .hero-section > h2 {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+    
+    #behind-the-scenes {
+        padding: 20px 15px;
+        margin: 30px 15px;
+    }
+    
+    #behind-the-scenes summary {
+        font-size: 13px;
+        padding: 15px 15px 15px 40px;
+    }
+    
+    .hero-section video {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section > h2 {
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+    
+    #behind-the-scenes h2 {
+        font-size: 20px;
+    }
+}
