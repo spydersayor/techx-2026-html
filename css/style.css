@@ -41,6 +41,12 @@ h1 {
     text-align: center;
 }
 
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 .header nav{
     border: white solid 2px;
     background:linear-gradient(to right, #061033 0%, #626c8d 50%, #030a21 100%);
@@ -85,6 +91,7 @@ h1 {
 .footer{
     border-top: white solid 1px;
     background: linear-gradient(to bottom, #2c3e50, #1a252f);
+    padding: 2vh 0;
 }
 .footer p{
     text-align: center;
